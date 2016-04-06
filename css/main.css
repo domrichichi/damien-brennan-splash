@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+	height:100%;
+	background-image: url("../img/small-photo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.box {
+	height:800px;
+}
+
+.st0 {
+	fill:#730B12;
+}
+
+.logo {
+	width:50%;
+}
+
+footer {
+	background-color: black;
+}
+
+h1 {
+	display:none;
+}
